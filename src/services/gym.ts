@@ -57,4 +57,4 @@ async function deleteGym(gymID: string) {
     .then((data) => data.json())
     .catch((error) => Error(error.message));
 }
-export { getGyms, getGymByID, createGym, deleteGym,updateGym };
+export { getGyms, getGymByID, createGym, deleteGym,updateGym,getGymsByAdmin,getGymByAdmin };

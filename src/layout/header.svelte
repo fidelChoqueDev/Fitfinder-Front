@@ -1,5 +1,5 @@
 <script>
-  let src = "/src/assets/FitFinderLogo2.png";
+  let src = "/src/assets/FitFinderColor.svg";
   let routes = [
     { url: "/about", label: "About" },
     { url: "/contact", label: "Contact" },
@@ -10,8 +10,8 @@
   const toggleMenu = () => (mobileMode = !mobileMode);
 </script>
 
-<div class="bg-slate-200 header flex justify-between items-center py-2">
-  <a href="/" class="p-2"><img class="h-13 w-20" {src} alt="Fitfinder" /></a>
+<div class="header flex justify-between items-center">
+  <a href="/" class="p-2"><img class="h-52" {src} alt="Fitfinder" /></a>
   <div class="mr-1 hidden md:flex">
     {#each routes as route}
       <a href={route.url} class="bg-blue-400 p-3 py-2 mx-1 rounded text-white ">
