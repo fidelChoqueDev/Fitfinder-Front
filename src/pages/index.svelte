@@ -8,27 +8,14 @@
   <p class="text-white">SE TU MEJOR</p>
   <section class="container mx-auto mt-5 text-center">
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-        <CardTopTen/>
-        <div class="bg-red-400 row-span-5">
-          <h2 class="text-2xl">Top ten Gym</h2>
-          <div class="bg-slate-200 rounded-xl m-3">
-            <ol class="text-lg">
-              <li>The Gym Six Sense</li>
-              <li>Grupo Arsenal</li>
-              <li>Iradier</li>
-              <li>Caroli Health Club</li>
-              <li>Reebook Sport</li>
-              <li>Zagros Sport</li>
-              <li>Metropolitan</li>
-              <li>O2 Wellness Center</li>
-              <li>Príncipe Sport</li>
-              <li>Príncipe Sport</li>
-            </ol>
-          </div>
+        
+        <div class="bg-sky-800 row-span-5">
+          
+          <CardTopTen/>
           
         </div>
 
-        <div class="bg-red-400">
+        <div class="bg-sky-800">
           <spam class="text-2xl">The best Gym reviews</spam>
           <div class="flex justify-center m-3">
             <div class="block p-6 rounded-lg shadow-lg bg-slate-200 max-w-sm">
@@ -38,7 +25,7 @@
           </div>
         </div>
 
-        <div class="bg-red-400">
+        <div class="bg-sky-800">
           <spam class="text-2xl">Latest Gym Comments</spam>
           <div class="flex justify-center m-3">
             <div class="block p-6 rounded-lg shadow-lg bg-slate-200 max-w-sm">
